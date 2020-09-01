@@ -1,4 +1,6 @@
 'use strict';
+// GLOBAL EVENT POOL
+
 
 const EventEmitter = require('events');
 
