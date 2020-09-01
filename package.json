@@ -7,12 +7,15 @@
     "@code-fellows/supergoose": "^1.0.11",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "faker": "^5.1.0",
+    "faker": "^4.1.0",
     "jest": "^26.4.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node events.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
   },
   "repository": {
     "type": "git",
