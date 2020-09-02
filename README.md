@@ -4,7 +4,7 @@
 Code 401 Lab 16-19 Project
 
 **Description**
-
+This project is a 4-day buildout of the CAPS (Code Academy Parcel Service) system. This is a real-time service that allows for **vendors** to alert a system of a package needing to be delivered, for **drivers** to instantly see what's in their pickup queue, and then alert the **vendors** as to the state of the deliveries. 
 
 ## Author
 Tia Low
@@ -13,25 +13,30 @@ Tia Low
 Full-stack JavaScript developer with a diverse background of personal and professional experience.
 
 ## Collaborations and Resources
-- 
+- Alex Whan: [GitHub](https://github.com/alex-whan)
+- Joshua Beasley : [GitHub](https://github.com/beasleyDOTcom)
 
 ## Version
-
+1.0.2
 
 ## ENV SAMPLES
 - PORT=
 - STORE_NAME=
+- HOST=
 
-## Domain Modeling
-<!-- - MongoDB name: users
-- Phase 4 MongoDB: auth-server -->
+## Tech
+- dotenv
+- net
+
+<!-- ## Domain Modeling -->
 
 ## Daily Log
-Monday : 8-31-20 : **Phase 1** : **____**
-- 
+Monday : 8-31-20 : **Phase 1**
+- Goal is to setup a system of events and handlers with the intent being to change out the eventing system as we go, but keep handlers themselves largely the same  
 
-Tuesday : 9-01-20 : **Phase 2** : **____**
-- 
+Tuesday : 9-01-20 : **Phase 2**
+- Spreading functionality to multiple applications so users on different computers and connections can communicate in real time as packages are prepared, picked up, and delivered
+- Now using multiple apps to raise and listen for the events
 
 Wednesday : 9-02-20 : **Phase 3** : **__**
 - 
@@ -39,14 +44,8 @@ Wednesday : 9-02-20 : **Phase 3** : **__**
 Thursday : 9-03-20 : **Phase 4** : **__**
 - 
 
-
-
-
-
 <!-- ### Swagger Hub Documentation
 https://app.swaggerhub.com/apis/TiaLow/online-store/0.1#/info -->
 
 ### UML Diagram
-**Phase 1**![UML Diagram](./img/UML3.png)
-**Phase 2**![OAuth UML Diagram](./img/OAuth-UML.jpg)
-**Phase 3 / 4**![Bearer Token & ACL UML Diagram](./img/BT-ACL-UML.jpg)
+![UML Diagram](./img/UML.png)
