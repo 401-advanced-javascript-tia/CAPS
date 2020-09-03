@@ -15,6 +15,11 @@ Full-stack JavaScript developer with a diverse background of personal and profes
 ## Collaborations and Resources
 - Alex Whan: [GitHub](https://github.com/alex-whan)
 - Joshua Beasley : [GitHub](https://github.com/beasleyDOTcom)
+- Chris Hamersly: [GitHub](https://github.com/christopherhamersly)
+- Lulu Sevignon: [GitHub](https://github.com/luluse)
+- Steve Baldock: [GitHub](https://github.com/SBALDOCK)
+- Daisy Johnson: [GitHub](https://github.com/daisyjanejohnson)
+
 
 ## Version
 1.0.3
@@ -53,3 +58,5 @@ https://app.swaggerhub.com/apis/TiaLow/online-store/0.1#/info -->
 
 ### UML Diagram
 ![UML Diagram](./img/UML.png)
+![UML Diagram 2](./img/UML2.png)
+
