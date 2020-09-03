@@ -13,6 +13,8 @@
     "dotenv": "^8.2.0",
     "get-ip": "^2.0.0",
     "inquirer": "^7.3.3",
-    "net": "^1.0.2"
+    "net": "^1.0.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.2.0"
   }
 }

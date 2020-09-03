@@ -17,7 +17,7 @@ Full-stack JavaScript developer with a diverse background of personal and profes
 - Joshua Beasley : [GitHub](https://github.com/beasleyDOTcom)
 
 ## Version
-1.0.2
+1.0.3
 
 ## ENV SAMPLES
 - PORT=
@@ -27,6 +27,8 @@ Full-stack JavaScript developer with a diverse background of personal and profes
 ## Tech
 - dotenv
 - net
+- socket.io
+- socket.io-client
 
 <!-- ## Domain Modeling -->
 
@@ -38,8 +40,10 @@ Tuesday : 9-01-20 : **Phase 2**
 - Spreading functionality to multiple applications so users on different computers and connections can communicate in real time as packages are prepared, picked up, and delivered
 - Now using multiple apps to raise and listen for the events
 
-Wednesday : 9-02-20 : **Phase 3** : **__**
-- 
+Wednesday : 9-02-20 : **Phase 3**
+- Changing the underlying networking implementation of the system from using raw TCP to using a socket.io, which will manage the connection pool. This makes broadcasting much easier to operate, and works well both on the terminal between servers and with web clients.
+- This phase refactors the networking layer. 
+- Network event driven system using Socket.io 
 
 Thursday : 9-03-20 : **Phase 4** : **__**
 - 
