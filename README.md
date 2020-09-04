@@ -22,7 +22,7 @@ Full-stack JavaScript developer with a diverse background of personal and profes
 
 
 ## Version
-1.0.3
+1.0.4
 
 ## ENV SAMPLES
 - PORT=
@@ -34,6 +34,8 @@ Full-stack JavaScript developer with a diverse background of personal and profes
 - net
 - socket.io
 - socket.io-client
+- express
+- faker
 
 <!-- ## Domain Modeling -->
 
@@ -50,8 +52,8 @@ Wednesday : 9-02-20 : **Phase 3**
 - This phase refactors the networking layer. 
 - Network event driven system using Socket.io 
 
-Thursday : 9-03-20 : **Phase 4** : **__**
-- 
+Thursday : 9-03-20 : **Phase 4**
+- Build a set of applications to manage deliveries made by CAPS Drivers. Retailers will be able to see in their dashboard or log a list of all packages delivered in real time. Should a delivery driver deliver many packages while the retailer is not connected to the dashboard, the retailer should be able to "catch up" and see a list of all missed events before resuming real-time monitoring.
 
 <!-- ### Swagger Hub Documentation
 https://app.swaggerhub.com/apis/TiaLow/online-store/0.1#/info -->
